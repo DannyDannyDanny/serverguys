@@ -28,7 +28,7 @@ def file(bot,update):
     bot.send_message(chat_id=update.message.chat_id,text='checking')
 
 def downloadfile(message):
-    file_id = message.voice.file_id
+    file_id = message.document.file_id
     newFile = bot.get_file(file_id)
     newFile.download('voice.ogg')
 
