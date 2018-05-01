@@ -20,35 +20,25 @@ Especially useful over a single SSH connection.
 Check [this resources](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-tmux-on-ubuntu-12-10--2).
 
 Install with:
-```bash
-sudo apt-get install tmux -Y
 ```
-#### Session control
-```bash
-# start session
-tmux
-```
-```bash
-# split session horizontally
-ctrl + b , %
-```
-```bash
-# next session
-ctrl + b , o
-```
-```bash
-# split session horizontally
-ctrl + b , "
+sudo apt-get install tmux -Y # installing tmux (for example)
+tmux # start tmux
+C-b # tmux escape sequence
+% # verical split
+" # horizontal split
+o # swap pane
+x # kill pane
 ```
 
 ## Setting up
 
 ### Github setup
+>Desperately needs a shortguide. I'm so trash at git. The biggest change I did to this guide got ranched because of git. I'm so mad rn.
+
 For the serverguy follow the [Github Setup Guide](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
 
 ### Time Capsule
 
-Not sure how this works yet
 ```
 sudo apt-get install cifs-utils
 ```
@@ -68,11 +58,7 @@ transmission-remote -n 'transmission:transmission' -l
 sudo transmission-cli "magnet:?XXX"
 ```
 
-## Misck
-Making alias shorcuts for bash
-```bash
-alias ic='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs' # alias to mac icloud folder
-```
+
 
 ## Further info
 
