@@ -43,6 +43,9 @@ ctrl + b , "
 
 ## Setting up
 
+### Github setup
+For the serverguy follow the [Github Setup Guide](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
+
 ### Time Capsule
 
 ```
