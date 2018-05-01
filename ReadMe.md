@@ -20,7 +20,7 @@ Especially useful over a single SSH connection.
 Check [this resources](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-tmux-on-ubuntu-12-10--2).
 
 Install with:
-```
+```bash
 sudo apt-get install tmux -Y
 ```
 #### Session control
