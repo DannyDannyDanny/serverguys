@@ -55,6 +55,7 @@ C-q # close tab
 
 ### Time Capsule
 
+Not sure how this works yet
 ```
 sudo apt-get install cifs-utils
 ```
@@ -74,7 +75,11 @@ transmission-remote -n 'transmission:transmission' -l
 sudo transmission-cli "magnet:?XXX"
 ```
 
-
+## Misck
+Making alias shorcuts for bash
+```bash
+alias ic='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs' # alias to mac icloud folder
+```
 
 ## Further info
 
