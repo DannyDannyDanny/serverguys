@@ -15,33 +15,43 @@ Installing and auto-saying yes to everything
 sudo apt-get install [<package-name> , ...] -Y
 ```
 
-## Terminal Multiplexer - tmux
+## Terminal Multiplexer - *tmux*
 Especially useful over a single SSH connection.
 Check [this resources](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-tmux-on-ubuntu-12-10--2).
 
 Install with:
-```
-sudo apt-get install tmux -Y
-```
-#### Session control
 ```bash
-# start session
-tmux
+sudo apt-get install tmux -Y # install tmux -Y (for example)
+tmux # start tmux session
+ctrl+b # escape sequence to perform tmux operations
 ```
+
+#### Pane / split control
 ```bash
-# split session horizontally
-ctrl + b , %
-```
-```bash
-# next session
-ctrl + b , o
-```
-```bash
-# split session horizontally
-ctrl + b , "
+% # split horizontally
+" # split vertically 
+o # activate next pane
+x # kill pane
 ```
 
 ## Setting up
+
+### Internet Browser *w3m*
+Start up w3m in visual mode
+```bash
+w3m -v google.com
+```
+
+Shortcuts and hotkeys inside *w3m*
+```bash
+U # go to URL bar
+B # back
+H # help
+T # new tab
+esc-T # tab switcher
+C-q # close tab
+
+```
 
 ### Time Capsule
 
