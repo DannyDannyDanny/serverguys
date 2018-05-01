@@ -12,14 +12,29 @@ updater = '_'
 
 ##### MESSAGE HANDLERS
 
+def getStatus():
+    print("getting status")
+    file_creds = "status.txt"
+    file = open(file_creds, "r")
+    file_contents = file.read()
+    file.close()
+    print(file_contents)
+    return file_contents
+
+def genReply(recieved):
+    if recieved == 'status':
+        return getStatus()
+    else:
+        return 'supported commands: status'
+
 def start(bot, update):
-    bot.send_message(chat_id=update.message.chat_id, text="HarakatBot Active")
+    bot.send_message(chat_id=update.message.chat_id, text="QubBot Active")
 
 def echo(bot, update):
     recieved=update.message.text
     log(recieved)
-    print('recieved:',recieved)
-    bot.send_message(chat_id=update.message.chat_id, text=recieved)
+    reply = genReply(recieved)
+    bot.send_message(chat_id=update.message.chat_id, text=reply)
 
 def file(bot,update):
     recieved=update.message.document
@@ -32,11 +47,6 @@ def downloadfile(message):
     newFile = bot.get_file(file_id)
     newFile.download('voice.ogg')
 
-def caps(bot, update, args):
-    text_caps = ' '.join(args).upper()
-    bot.send_message(chat_id=update.message.chat_id, text=text_caps)
-    print('wow')
-
 def boi_up():
     global updater
     log('test')
@@ -47,7 +57,6 @@ def boi_up():
 
     start_handler = CommandHandler('start', start)
     echo_handler = MessageHandler(Filters.text, echo)
-    caps_handler = CommandHandler('caps', caps, pass_args=True)
     file_handler = MessageHandler(Filters.document,file)
 
 ##### ADDING HANDLERS TO DISPATCHER
@@ -57,7 +66,6 @@ def boi_up():
 
     dispatcher.add_handler(start_handler)
     dispatcher.add_handler(echo_handler)
-    dispatcher.add_handler(caps_handler)
     dispatcher.add_handler(file_handler)
 ##### START BOT
     updater.start_polling()
