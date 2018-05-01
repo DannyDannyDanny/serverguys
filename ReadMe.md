@@ -14,6 +14,14 @@ Installing and auto-saying yes to everything
 ```
 sudo apt-get install [<package-name> , ...] -Y
 ```
+## Python & pipenv
+```bash
+# installing pipenv
+There som guide which starts with something like...
+```bash
+sudo apt install software-properties-common python-software-properties
+```
+...yeah google that to install properly
 
 ## Terminal Multiplexer - tmux
 Especially useful over a single SSH connection.
