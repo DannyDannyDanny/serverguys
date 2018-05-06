@@ -23,6 +23,10 @@ sudo apt install software-properties-common python-software-properties
 ```
 ...yeah google that to install properly
 
+## Internet Browser - w3m
+> # TODO
+
+
 ## Terminal Multiplexer - tmux
 Especially useful over a single SSH connection.
 Check [this resources](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-tmux-on-ubuntu-12-10--2).
