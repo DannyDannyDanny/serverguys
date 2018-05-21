@@ -24,7 +24,12 @@ sudo apt install software-properties-common python-software-properties
 ...yeah google that to install properly
 
 ## Internet Browser - w3m
-> # TODO
+```bash
+# start
+w3m google.com
+# stopping
+q,y
+```
 
 
 ## Terminal Multiplexer - tmux
