@@ -1,3 +1,6 @@
+echo "adding all files"
 git add .;
-git commit -m "Baby steps on the python game";
+echo "comitting files"
+git commit -m "Default message from push.sh";
+echo "pushing changes"
 git push origin master
