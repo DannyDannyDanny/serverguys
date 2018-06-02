@@ -31,6 +31,25 @@ w3m google.com
 q,y
 ```
 
+## Setup Python and pipenv
+
+1. New git repository (w Python .gitignore)
+2. Clone locally
+3. `cd` to into repository
+4. Make folder for sensitive data: `mkdir creds`
+5. Add creds to .gitignore with: `echo "creds/" >> .gitignore`
+6. Make sure `pipenv` is installed: `pip install --user pipenv`
+7. Set up python environment with `firebase-admin` module: `pipenv install firebase-admin`
+8. Run `pipenv run python /path/file.py` to run python scripts
+> you can also `pipenv shell` to start the environment
+
+>outside of shell do `pipenv install ipykernel`
+>or within `pipenv shell` do `python3 -m ipykernel install --user`
+
+<!--
+>6. Make python environment `virtualenv envname`
+>7. Install module dependencies `envname/bin/pip install firebase-admin`
+ -->
 
 ## Terminal Multiplexer - tmux
 Especially useful over a single SSH connection.

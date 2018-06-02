@@ -1,0 +1,4 @@
+-------- LOG FILE --------
+lets go
+time to checkup
+{"reference_time": 1527956400, "sunset_time": 1527968647, "sunrise_time": 1527906739, "clouds": 0, "rain": {}, "snow": {}, "wind": {"speed": 3.1, "deg": 200}, "humidity": 53, "pressure": {"press": 1014, "sea_level": null}, "temperature": {"temp": 298.78, "temp_kf": null, "temp_max": 300.15, "temp_min": 296.15}, "status": "Clear", "detailed_status": "clear sky", "weather_code": 800, "weather_icon_name": "01d", "visibility_distance": 10000, "dewpoint": null, "humidex": null, "heat_index": null}
