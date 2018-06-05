@@ -1,7 +1,7 @@
 import pyowm
 from w_logger import newlog, log
 
-newlog()
+#newlog()
 log('lets go')
 
 import time
