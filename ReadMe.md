@@ -15,6 +15,15 @@ Installing and auto-saying yes to everything
 sudo apt-get install [<package-name> , ...] -Y
 ```
 
+* Stop transmission from running: `/etc/init.d/transmission-daemon stop`
+
+## To do
+* [X] set up `ssh` over LAN
+* [X] set up `ssh` over IP
+* [x] set up [transmission](Torrenting) over LAN
+* [ ] set up Time Capsule connection
+
+
 ## Python & pipenv
 ```bash
 # installing pipenv
@@ -52,12 +61,14 @@ Especially useful over a single SSH connection.
 Check [this resources](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-tmux-on-ubuntu-12-10--2).
 
 Install with:
+
 ```bash
 sudo apt-get install tmux -Y # installing tmux
 tmux # start tmux
 ```
 
 #### tmux commands
+
 ```
 C-b # tmux escape sequence
 % # verical split
@@ -69,6 +80,7 @@ x # kill pane
 ## UNIX Terminal / Ubuntu Essentials
 
 ### File system navigation
+
 ```bash
 $ pwd # print current (working) directory
 $ ls # list files and directories in current directory
@@ -108,21 +120,8 @@ Mount to mount point: `mount_afp 'afp://tc_usr:tc_pwd@192.168.0.x/tc_usr' ~/time
 
 Unmount: `afp_client unmount ~/timecapsule/`
 
-## Torrenting
-If in doubt, see [ubuntu community article](https://help.ubuntu.com/community/TransmissionHowTo)
-#### Install transmission
-```
-sudo apt-get install transmission-cli transmission-common transmission-daemon
-```
-#### See torrents in actions
-```
-transmission-remote -n 'transmission:transmission' -l
-```
-
-```
-sudo transmission-cli "magnet:?XXX"
-```
-
 ## Further info
+More stuff:
+* [cli-ck.io](https://cli-ck.io)
 
-hmu on [Telegram](http://t.me/DannyDannyDanny)
+hmu on [Telegram](http://t.me/DannyDannyDanny) ✈️
