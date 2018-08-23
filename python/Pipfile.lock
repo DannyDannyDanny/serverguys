@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "267dfe406b317622b02f5db1214146aadb3f7a43ae18421278f815ddd7e502a6"
+            "sha256": "d43a64e804164a9cca1e493b62f6b4a027a6058094b50b2b5ea92f31d2e54433"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,14 +16,6 @@
         ]
     },
     "default": {
-        "appnope": {
-            "hashes": [
-                "sha256:5b26757dc6f79a3b7dc9fab95359328d5747fcb2409d331ea66d0272b90ab2a0",
-                "sha256:8b995ffe925347a2138d7ac0fe77155e4311a0ea6d6da4f5128fe4b3cbe5ed71"
-            ],
-            "markers": "sys_platform == 'darwin'",
-            "version": "==0.1.0"
-        },
         "backcall": {
             "hashes": [
                 "sha256:38ecd85be2c1e78f77fd91700c76e14667dc21e2713b63876c0eb901196e01e4",
@@ -146,6 +138,19 @@
                 "sha256:dbae1046def0efb574852fab9e90209b23f556367b5a320c0bcb871c77c3e8cc"
             ],
             "version": "==2.2.0"
+        },
+        "pyowm": {
+            "hashes": [
+                "sha256:10d64b09827405d3fbe7ce33964b48ff0f6a0b0bf385b2713928bde617e6d3a2",
+                "sha256:200cacc84d9382314d8d2c6115e818dd081cfdba231470b25aaa2a7685185978",
+                "sha256:29d39fdc0bf04d71bbe407de6d088f076243e0307f0ed04de1d8b026776b8156",
+                "sha256:5b1b80f18be70f2823417b0d7d41e6f2136ffecb48b1dc8b4a7555db54d3cd31",
+                "sha256:907683bc3446b0846d5ef1846602f4837be9ff3f704c44f5f5f6d0ff394d50ec",
+                "sha256:d4f26f0fc9a2eb3d1e1925f54fa2f1210bf6fff917eef92ce506a4a2784419e7",
+                "sha256:eb6d847ef3ee4cd5dbf753d413b9560c4215bcce340372b0192b8cf93df1410b"
+            ],
+            "index": "pypi",
+            "version": "==2.8.0"
         },
         "python-dateutil": {
             "hashes": [

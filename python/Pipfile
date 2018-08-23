@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 weather-api = "*"
 ipykernel = "*"
+pyowm = "*"
 
 [dev-packages]
 
