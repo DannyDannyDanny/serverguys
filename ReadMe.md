@@ -56,6 +56,14 @@ q,y
 >outside of shell do `pipenv install ipykernel`
 >or within `pipenv shell` do `python3 -m ipykernel install --user`
 
+## Ipykernel in Atom
+Setup kernel:
+`pipenv install ipykernel`
+`pipenv shell`
+`python -m ipykernel install --user --name=python-XXXXXX`
+`jupyter notebook`
+
+
 ## Terminal Multiplexer - tmux
 Especially useful over a single SSH connection.
 Check [this resources](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-tmux-on-ubuntu-12-10--2).
@@ -69,7 +77,7 @@ tmux # start tmux
 
 #### tmux commands
 
-```
+```bash
 C-b # tmux escape sequence
 % # verical split
 " # horizontal split
