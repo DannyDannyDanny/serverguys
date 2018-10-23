@@ -100,15 +100,18 @@ $ mv ./myfile.txt ./mytext.txt # rename file
 $ -> # use tab to autocomplete
 ```
 
-### SSH / SCP
-
-> **SSH** gives remote terminal access to another machine on the LAN
+### SSH
+gives remote terminal access to another machine on the LAN
 
 `ssh serverguy@192.168.0.X`
 
-> **SCP** enables copying files across machines on the LAN
+### **SCP**
+enables copying files across machines on the LAN. This command will move MyFile from local machine to user folder on serverguy:
 
-`scp /Users/Me/MyFile/ serverguy@192.168.0.X:/home/serverguy`
+  scp /Users/Me/MyFile/ serverguy@192.168.0.X:/home/serverguy
+  scp /Users/Me/MyFile/ serverguy@192.168.0.X:/home/serverguy
+
+
 
 ### Github setup
 >Desperately needs a shortguide. I'm so trash at git. The biggest change I did to this guide got ranched because of git. I'm so mad rn.
