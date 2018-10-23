@@ -15,15 +15,6 @@ Installing and auto-saying yes to everything
 sudo apt-get install [<package-name> , ...] -Y
 ```
 
-* Stop transmission from running: `/etc/init.d/transmission-daemon stop`
-
-## To do
-* [X] set up `ssh` over LAN
-* [X] set up `ssh` over IP
-* [x] set up [transmission](Torrenting) over LAN
-* [ ] set up Time Capsule connection
-
-
 ## Python & pipenv
 ```bash
 # installing pipenv
@@ -40,6 +31,10 @@ w3m google.com
 # stopping
 q,y
 ```
+
+## Transmission-CLI
+Download via magnet link: `transmission-cli magnet:?xt=... -w ~/Downloads -er`
+
 
 ## Setup Python and pipenv
 
