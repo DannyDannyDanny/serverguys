@@ -131,3 +131,9 @@ More stuff:
 * [cli-ck.io](https://cli-ck.io)
 
 hmu on [Telegram](http://t.me/DannyDannyDanny) ✈️
+
+## Other notes
+* [Reverse scrolling in Lubuntu](https://askubuntu.com/questions/908484/natural-scrolling-in-lubuntu-17-04)
+* Install pip on linux env: `sudo apt install python3-pip -Y`
+
+
